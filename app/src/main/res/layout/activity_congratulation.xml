@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5DB075"
+    tools:context=".CongratulationActivity">
+
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="363dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="242dp"
+        android:background="@drawable/square"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Congratulations!"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:layout_marginTop="185dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:text="Consequat velit qui adipisicing sunt do reprehenderit ad laborum tempor ullamco exercitation. Ullamco tempor adipisicing et voluptate duis sit esse aliqua esse ex dolore esse. Consequat velit qui adipisicing sunt."
+        android:textColor="#666666"
+        android:textSize="16sp"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:backgroundTint="#5DB075"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:width="280dp"
+        app:cornerRadius="20dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secondary Action"
+        android:textColor="#5DB075"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+
+</RelativeLayout>
