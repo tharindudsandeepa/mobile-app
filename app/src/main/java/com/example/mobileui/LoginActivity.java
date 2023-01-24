@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
         password=findViewById(R.id.password);
 
 
-        loginButton =findViewById(R.id.loginbt);
+        loginButton =findViewById(R.id.loginBtn);
 
         loginButton.setOnClickListener(view -> {
             if(email.getText().toString().equals("admin@gmail.com")&&password.getText().toString().equals("admin")){
