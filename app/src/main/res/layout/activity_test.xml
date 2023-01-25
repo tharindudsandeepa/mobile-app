@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="0.072" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/regUsername"
         android:layout_width="361dp"
         android:layout_height="58dp"
         android:layout_marginTop="60dp"
@@ -55,7 +55,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/regEmail"
         android:layout_width="361dp"
         android:layout_height="58dp"
         android:layout_marginTop="28dp"
@@ -69,11 +69,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/regUsername"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/regPassword"
         android:layout_width="361dp"
         android:layout_height="58dp"
         android:layout_marginTop="28dp"
@@ -86,7 +86,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/regEmail"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -94,16 +94,16 @@
         android:layout_width="63dp"
         android:layout_height="29dp"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="16dp"
         android:gravity="right|top"
         android:text="Show"
         android:textColor="#5DB075"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.882"
-        app:layout_constraintStart_toStartOf="@+id/editText3"
-        app:layout_constraintTop_toTopOf="@+id/editText3"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="@+id/regPassword"
+        app:layout_constraintTop_toTopOf="@+id/regPassword"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -119,10 +119,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/regPassword" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton"
+        android:id="@+id/signBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -153,7 +153,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton"
+        app:layout_constraintTop_toBottomOf="@+id/signBtn"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
